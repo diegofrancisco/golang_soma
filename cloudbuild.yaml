@@ -1,0 +1,4 @@
+steps:
+- id: "Rodando testes unitários"
+  name: 'gcr.io/cloud-builders/go'
+  args: ['test','-v']
