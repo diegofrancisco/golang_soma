@@ -1,4 +1,8 @@
 steps:
+- id: "Criando modulo"
+  name: 'gcr.io/cloud-builders/go'
+  args: ['mod','init','example.com/soma']
+
 - id: "Rodando testes unitários"
   name: 'gcr.io/cloud-builders/go'
   args: ['test','-v']
