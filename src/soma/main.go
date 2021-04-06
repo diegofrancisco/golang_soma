@@ -40,5 +40,5 @@ func Soma(args []string) (int, error) {
 		return -1, err2
 	}
 
-	return valor1 + valor2 + 1, nil //valor1 + valor2
+	return valor1 + valor2, nil //valor1 + valor2
 }
